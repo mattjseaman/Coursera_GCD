@@ -7,7 +7,7 @@ The "run_analysis.R" script assumes that the UCI HAR datasets have been download
 
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
-The R script sets the working directory assuming the working files are extracted into a "code/GCD" directory - if you extract into a different location then make sure to update this info at the top of the script.  The working directory of the script is at the top level of the extracted files (within the "UCI HAR Dataset" folder).
+The R script sets the working directory assuming the working files are extracted into a "code/GCD" directory - if you extract into a different location then make sure to update this info at the top of the script (line 3).  The working directory of the script is at the top level of the extracted files (within the "UCI HAR Dataset" folder).
 
 The r script is commented extensively to walk you through the logic step by step, but I'll map the project requirements to the script steps in the list below:
 
